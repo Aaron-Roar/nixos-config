@@ -1,4 +1,9 @@
-{ config, pkgs, ... }:
+{
+  inputs,
+  pkgs,
+  self,
+  ...
+}:
 
 {
   imports = [
@@ -78,6 +83,8 @@ boot.loader.efi.canTouchEfiVariables = true;
       mako
       swayfx
       waybar
+
+      (inputs.atomic-vim.systemLib."${system}".mkAtomic (self + "/atomic.nix"))
     ];
   };
 
