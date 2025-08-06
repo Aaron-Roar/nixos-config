@@ -10,11 +10,11 @@
         "nvf": "nvf"
       },
       "locked": {
-        "lastModified": 1754441547,
-        "narHash": "sha256-Egt6u2iVM3coh57p0b2hnQTSBXMKKPLwb9ebS5KuCpE=",
+        "lastModified": 1754447847,
+        "narHash": "sha256-zPAHKWQa0zS9t3/YpNrOr/CMkktKdRwDmtf4QuYqQTI=",
         "ref": "refs/heads/main",
-        "rev": "f0c9c8ba15628f5f5986a688714f4a68691ebb77",
-        "revCount": 36,
+        "rev": "8c5f1aa8f78b5bb5d0b7d0c75bc8e7d778290867",
+        "revCount": 38,
         "type": "git",
         "url": "https://codeberg.org/midischwarz12/atomic-vim"
       },

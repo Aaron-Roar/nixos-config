@@ -54,6 +54,7 @@ boot.loader.efi.canTouchEfiVariables = true;
       XDG_CURRENT_DESKTOP = "sway";
       XDG_SESSION_DESKTOP = "sway";
       XDG_SESSION_TYPE = "wayland";
+      EDITOR = "vim";
       FUCKYOU = "rohr";
     };
 
@@ -75,6 +76,8 @@ boot.loader.efi.canTouchEfiVariables = true;
       feh
       julia
       neovim
+      neovide
+      fuzzel
 
       # Sway essentials
       grim
